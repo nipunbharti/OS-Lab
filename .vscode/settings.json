@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "istream": "c",
+        "valarray": "c",
+        "fstream": "c",
+        "locale": "c",
+        "algorithm": "c",
+        "pthread.h": "c"
+    }
+}

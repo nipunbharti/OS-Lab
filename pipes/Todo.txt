@@ -1,0 +1,8 @@
+(1) Simulate the unidrectional and bidrectional pipes discussed in the class for message exchange.
+(2) Achieve the following using pipes (chose 1/2 directional appropriately):
+    (a) Case conversion using (i) user conversion (ii) tr command (discussed in class)
+    (b) search for specific process names using ps and grep command in a piped fashion.
+    (c) simulate stream redirection and indirection using dup system call.
+    [try both to/from a pipe and to/from a user created file]
+(3) Develop an application in which one process sends a string to a second process which reverses the case and sends it back to the first process. (eg. iiitdm kANCHEEPURAM from one process and output to the IIITDM Kancheepuram. use bidirectional pipes.
+(4) Simulate the cp command to copy source file to a destination file  using pipes.

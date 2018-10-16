@@ -1,0 +1,14 @@
+ls
+cat List.txt
+!!
+ls
+python
+gcc bash_sim.c
+gcc bash_history.c
+!2
+!4
+!!
+ls -a
+!4
+!!
+clear

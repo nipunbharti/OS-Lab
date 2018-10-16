@@ -1,0 +1,8 @@
+-Zombie D
+-Orphan D
+-Pefect Number D
+-Collatz D
+-Sorting and searching D
+-Bash sim D
+-Bash history re collector D
+-exec D
