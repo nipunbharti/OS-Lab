@@ -1,4 +1,6 @@
 #include <iostream>
+#include <algorithm>
+#include <string.h>
 using namespace std;
 
 template <class X>
@@ -23,10 +25,13 @@ void bubble_sort(T arr[], int n)
 
 int main(int argc, char *argv[])
 {
-	char a[3] = {'a','c','b'};
-	bubble_sort(a,3);
-	for(int i=0;i<3;i++){
-		cout<<a[i]<<" ";
+	string s = "abc";
+	while(next_permutation(s.begin(), s.end())){
+		cout<<s<<endl;
 	}
+	// bubble_sort(a,3);
+	// for(int i=0;i<3;i++){
+	// 	cout<<a[i]<<" ";
+	// }
 	return 0;
 }
