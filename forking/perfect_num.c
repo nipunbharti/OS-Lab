@@ -24,7 +24,6 @@ int main()
 	int lower_limit, upper_limit;
 	pid_t pid = vfork();
 	if(pid > 0){
-		wait(NULL);
 		for(int i=lower_limit;i<upper_limit;i++){
 			if(is_perfect(i)){
 				printf("%d ", i);

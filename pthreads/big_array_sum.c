@@ -6,7 +6,7 @@
 int arr[MAX];
 #define MAX_THREAD 4
 int part=0;
-int sum_array[5] = {0};
+int sum_array[10] = {0};
 
 void *sum(void *param)
 {
